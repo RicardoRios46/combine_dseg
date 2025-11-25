@@ -5,6 +5,7 @@ name = "nifti-dseg-combiner"
 version = "0.1.0"
 description = "Utility to combine label values in a dseg (label) NIfTI volume."
 channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
 
 [dependencies]
 # Python interpreter requirement (Conda package)
