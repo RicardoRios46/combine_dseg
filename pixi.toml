@@ -1,0 +1,22 @@
+# pixi.toml
+
+[project]
+name = "nifti-dseg-combiner"
+version = "0.1.0"
+description = "Utility to combine label values in a dseg (label) NIfTI volume."
+channels = ["conda-forge"]
+
+[dependencies]
+# Python interpreter requirement (Conda package)
+python = ">=3.10,<3.11" 
+
+# Core dependencies (Conda packages)
+numpy = "*"
+nibabel = "*"
+
+[tasks]
+# Task to run the script without any arguments (just for testing/help)
+run-combiner = "python combine_dseg.py"
+
+# Task demonstrating a typical usage pattern (user must replace 'input.nii.gz' with a real file)
+combine-example = "python combine_dseg.py input.nii.gz -g '[[17, 53], [18, 54]]' -o combined_output.nii.gz"
