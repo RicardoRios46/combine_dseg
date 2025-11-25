@@ -1,6 +1,6 @@
 # pixi.toml
 
-[project]
+[workspace]
 name = "nifti-dseg-combiner"
 version = "0.1.0"
 description = "Utility to combine label values in a dseg (label) NIfTI volume."
