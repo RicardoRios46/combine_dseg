@@ -168,11 +168,11 @@ def combine_dseg_labels(
 #     # Combine labels 1,2,3 -> new label 1; labels 4,5 -> new label 2
 #     combine_dseg_labels("dseg.nii.gz", [[1, 2, 3], [4, 5]], output_path="combined.nii.gz")
 
-# FRom terminal: (check README.md)
-# python3 /home/ricardo/Code/combine_dseg/combine_dseg.py \
-#  /home/ricardo/Code/combine_dseg/sub-111004_run-01_space-T1w_dseg.nii.gz \
+# From terminal: (check README.md)
+# python3 combine_dseg.py \
+#  /pathToFile/dseg.nii.gz \
 #  -g '[[17,53]]' \
-#  -o /home/ricardo/Code/combine_dseg/hippocampus_ROI.nii.gz
+#  -o /pathToOut/ROI.nii.gz
 
 
 # ...existing code...
