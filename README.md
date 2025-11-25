@@ -14,7 +14,7 @@ This project uses **Pixi** to manage dependencies and create a reproducible envi
 
 You must have **Pixi** installed on your system.
 
-  * **Install Pixi:** Follow the official installation instructions for your operating system:
+  * **Install Pixi:** Follow the official installation instructions for your operating system. For linux:
     ```bash
     curl -Ls https://pixi.sh/install.sh | bash
     ```
@@ -124,3 +124,11 @@ Run the script directly using the Python interpreter within the active virtual e
 ```bash
 python combine_dseg.py input.nii.gz -g '[[17, 53]]' -o combined_output.nii.gz
 ```
+
+-----
+
+## Repository ToDo
+
+- How to build a python application? Is it worth it?
+- Create python test. Add them in the pixi toml.
+- How to run github automatic test?
