@@ -1,0 +1,8 @@
+# requirements.txt
+# Dependencies for combine_dseg.py
+
+# Used for loading, saving, and manipulating NIfTI images (brain scans)
+nibabel>=3.2.1
+
+# Essential for high-performance array and data manipulation
+numpy>=1.20.0
