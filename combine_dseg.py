@@ -8,10 +8,6 @@ import ast
 import nibabel as nib
 import numpy as np
 
-# combine_dseg.py
-# GitHub Copilot
-
-
 
 def _parse_groups_arg(arg: str) -> Any:
     # arg can be a path to a file containing JSON or Python literal,
@@ -162,6 +158,9 @@ def combine_dseg_labels(
 
     return new_img
 
+if __name__ == "__main__":
+    _cli()
+
 
 # Example usage:
 # if __name__ == "__main__":
@@ -173,9 +172,3 @@ def combine_dseg_labels(
 #  /pathToFile/dseg.nii.gz \
 #  -g '[[17,53]]' \
 #  -o /pathToOut/ROI.nii.gz
-
-
-# ...existing code...
-if __name__ == "__main__":
-    _cli()
-# ...existing code...
