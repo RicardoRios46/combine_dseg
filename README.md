@@ -128,7 +128,7 @@ python combine_dseg.py input.nii.gz -g '[[17, 53]]' -o combined_output.nii.gz
 -----
 
 ## Repository ToDo
-
+- It's not clear what the "example execution" does. What is the purporse of those pixi task?
 - How to build a python application? Is it worth it?
 - Create python test. Add them in the pixi toml.
 - How to run github automatic test?
